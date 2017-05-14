@@ -32,7 +32,6 @@ void input(GameMaster gm){
     }else if (gm.v->buttons[2]->selected){
         gm.v->buttons[2]->selected =false;
         file.open("nehez.txt");
-        //file.open("inputkesz.txt");
     }
     int a;
     int k=0;
